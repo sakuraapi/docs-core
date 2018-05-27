@@ -2,7 +2,7 @@
 
 ## SakuraApi Manual
 
-You can find the Sakura Api Manual here: https://github.com/sakuraapi/manual.
+You can find the Sakura Api Manual [here](https://github.com/sakuraapi/manual).
 
 ## API Documentation
 
@@ -12,6 +12,4 @@ You can find the Sakura Api Manual here: https://github.com/sakuraapi/manual.
 ## Reporting issues with the docs
 
 If you find an issue with the develop or master branch API documentation, please open
-a ticket or tack and pull request here: https://github.com/sakuraapi/core/issues.
-
-
+a ticket or tack and pull request [here](https://github.com/sakuraapi/core/issues).
