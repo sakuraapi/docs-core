@@ -89,6 +89,7 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_core__model_model_.imodeloptions.html#cipherkey" class="tsd-kind-icon">cipher<wbr>Key</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_core__model_model_.imodeloptions.html#dbconfig" class="tsd-kind-icon">db<wbr>Config</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_core__model_model_.imodeloptions.html#suppressinjection" class="tsd-kind-icon">suppress<wbr>Injection</a></li>
 							</ul>
@@ -99,12 +100,44 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="cipherkey" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> cipher<wbr>Key</h3>
+					<div class="tsd-signature tsd-kind-icon">cipher<wbr>Key<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/sakuraapi/core/blob/4d2b8d5/src/core/@model/model.ts#L106">core/@model/model.ts:106</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Returns the cipher key to be used by @Json decorated properties with [[IJsonOption.encrypt]] === true. Provide
+								a function that returns the key as a string. The function will be given the context of <code>this</code> of the model
+							from which it is being called.</p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-siganture">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property tsd-is-not-exported">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="dbconfig" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> db<wbr>Config</h3>
 					<div class="tsd-signature tsd-kind-icon">db<wbr>Config<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sakuraapi/core/blob/44eb524/src/core/@model/model.ts#L78">core/@model/model.ts:78</a></li>
+							<li>Defined in <a href="https://github.com/sakuraapi/core/blob/4d2b8d5/src/core/@model/model.ts#L76">core/@model/model.ts:76</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -160,7 +193,7 @@
 					<div class="tsd-signature tsd-kind-icon">suppress<wbr>Injection<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sakuraapi/core/blob/44eb524/src/core/@model/model.ts#L106">core/@model/model.ts:106</a></li>
+							<li>Defined in <a href="https://github.com/sakuraapi/core/blob/4d2b8d5/src/core/@model/model.ts#L111">core/@model/model.ts:111</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -201,6 +234,9 @@
 					<li class="current tsd-kind-interface tsd-parent-kind-external-module">
 						<a href="_core__model_model_.imodeloptions.html" class="tsd-kind-icon">IModel<wbr>Options</a>
 						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_core__model_model_.imodeloptions.html#cipherkey" class="tsd-kind-icon">cipher<wbr>Key</a>
+							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_core__model_model_.imodeloptions.html#dbconfig" class="tsd-kind-icon">db<wbr>Config</a>
 							</li>
