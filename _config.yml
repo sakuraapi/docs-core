@@ -1,6 +1,6 @@
 description: API documentation generated from the SakuraApi Core project
 include:
-  - develop
+  - develop/classes/
   - master
 name: SakuraApi Core API Documentation
 
